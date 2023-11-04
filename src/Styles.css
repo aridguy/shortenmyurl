@@ -1,0 +1,25 @@
+.black {
+  color: rgb(0, 0, 0);
+}
+
+/* .navigator_bar{ */
+/* box-shadow: none; */
+/* background-color: white; */
+/* height: 7em; */
+/* } */
+
+.hero-extra-font {
+  font-size: 26px;
+}
+
+/* shorten link section */
+.shorten-bg {
+    background-image: url(./Assets/bg-boost-desktop.svg);
+    height: 11em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(38, 8, 73, 0.788);
+    border-radius: 10px;
+}
+
