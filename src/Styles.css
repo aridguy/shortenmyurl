@@ -1,7 +1,13 @@
 .black {
   color: rgb(0, 0, 0);
 }
+.absolute{
+    position: aboslute;
 
+}
+.relative{
+    position: relative
+}
 /* .navigator_bar{ */
 /* box-shadow: none; */
 /* background-color: white; */
@@ -21,10 +27,15 @@
     background-size: cover;
     background-color: rgba(38, 8, 73, 0.863);
     border-radius: 10px;
+
     /*  */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.shortenLink{
+    position: absolute
 }
 
 .linkShortner{
@@ -32,6 +43,18 @@
     width: 700px;
     height: 3.5em;
 }
+
+.s_result_bg{
+    background-color: rgb(224, 222, 222);
+    height: 3.4em;
+    width: 100%;
+    border-radius: 7px;
+    /* display: flex; */
+    align-items: center;
+    /* padding-left: 3em; */
+}
+
+/* .statistics{} */
 @media only screen and (max-width: 900px) {
     .linkShortner{
         position: relative;

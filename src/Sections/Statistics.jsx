@@ -3,7 +3,7 @@ import React from "react";
 const Statistics = () => {
   return (
     <div>
-      <section className="statistics bg-muted">
+      <section className="statistics bg-secondary">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
